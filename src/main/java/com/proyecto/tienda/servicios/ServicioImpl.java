@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 import com.proyecto.tienda.dao.Repositorio;
 import com.proyecto.tienda.modelo.User;
 
+
+
 @Service
 public class ServicioImpl implements Servicios {
 	
@@ -15,4 +17,12 @@ public class ServicioImpl implements Servicios {
 	public User save(User user) {
 		return this.repositorio.save(user);
 	}
+
+	@Override
+	public java.util.List<User> findAll() {
+		
+		return this.repositorio.findAll();
+	}
+
+	
 }
