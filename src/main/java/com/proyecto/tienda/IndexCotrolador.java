@@ -1,3 +1,4 @@
+//mapeo el index
 package com.proyecto.tienda;
 
 import org.springframework.stereotype.Controller;

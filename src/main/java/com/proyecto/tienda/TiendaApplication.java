@@ -1,3 +1,4 @@
+// iniciar 
 package com.proyecto.tienda;
 
 import org.springframework.boot.SpringApplication;

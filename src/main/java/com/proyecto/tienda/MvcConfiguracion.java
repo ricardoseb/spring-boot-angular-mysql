@@ -1,3 +1,5 @@
+//configurar el directorio del index
+
 package com.proyecto.tienda;
 
 
